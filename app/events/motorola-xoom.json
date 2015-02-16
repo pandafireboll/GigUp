@@ -4,10 +4,10 @@
         "os": "Android 3.0", 
         "ui": "Android"
     }, 
-    "availability": [
+    "gigs": [
         "Verizon"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "336 hours", 
         "talkTime": "24 hours", 
         "type": "Other (3250 mAH)"
@@ -42,9 +42,9 @@
     }, 
     "id": "motorola-xoom", 
     "images": [
-        "img/phones/motorola-xoom.0.jpg", 
-        "img/phones/motorola-xoom.1.jpg", 
-        "img/phones/motorola-xoom.2.jpg"
+        "img/events/motorola-xoom.0.jpg",
+        "img/events/motorola-xoom.1.jpg",
+        "img/events/motorola-xoom.2.jpg"
     ], 
     "name": "MOTOROLA XOOM\u2122", 
     "sizeAndWeight": {

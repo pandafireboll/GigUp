@@ -4,10 +4,10 @@
         "os": "Android 2.1", 
         "ui": "Stock Android + Sprint ID Pack"
     }, 
-    "availability": [
+    "gigs": [
         "Sprint"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "930 hours", 
         "talkTime": "9 hours", 
         "type": "Lithium Ion (Li-Ion) (1500 mAH)"

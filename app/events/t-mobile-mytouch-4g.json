@@ -4,10 +4,10 @@
         "os": "Android 2.2", 
         "ui": "HTC Sense\u2122"
     }, 
-    "availability": [
+    "gigs": [
         "T-Mobile"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "285 hours", 
         "talkTime": "7 hours", 
         "type": "Lithium Ion (Li-Ion) (1400 mAH)"

@@ -2,21 +2,24 @@
 
 /* Controllers */
 
-var phonecatControllers = angular.module('phonecatControllers', []);
+var gigupControllers = angular.module('gigupControllers', []);
 
-phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
-  function($scope, Phone) {
-    $scope.phones = Phone.query();
+gigupControllers.controller('EventListCtrl', ['$scope', 'Event',
+  function($scope, Event) {
+    $scope.events = Event.query();
     $scope.orderProp = 'age';
   }]);
 
-phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
-  function($scope, $routeParams, Phone) {
-    $scope.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
-      $scope.mainImageUrl = phone.images[0];
+gigupControllers.controller('EventDetailCtrl', ['$scope', '$routeParams', 'Event',
+  function($scope, $routeParams, Event) {
+
+      console.log(">>>>>>>",$routeParams.eventId);
+    $scope.event = Event.get({eventId: $routeParams.eventId}, function(event) {
+      $scope.mainImageUrl = event.images[0];
     });
 
     $scope.setImage = function(imageUrl) {
       $scope.mainImageUrl = imageUrl;
-    };
+    }
   }]);
+

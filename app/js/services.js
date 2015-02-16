@@ -2,11 +2,18 @@
 
 /* Services */
 
-var phonecatServices = angular.module('phonecatServices', ['ngResource']);
+var gigupServices = angular.module('gigupServices', ['ngResource']);
 
-phonecatServices.factory('Phone', ['$resource',
+gigupServices.factory('Event', ['$resource',
   function($resource){
-    return $resource('phones/:phoneId.json', {}, {
-      query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
+    return $resource('events/:eventId.json', {}, {
+      query: {method:'GET', params:{eventId:'events'}, isArray:true}
     });
   }]);
+
+
+gigupServices.factory('SignUp', [
+    function(){
+        return
+    }
+]);

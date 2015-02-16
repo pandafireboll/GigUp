@@ -4,10 +4,10 @@
         "os": "Android 2.2", 
         "ui": ""
     }, 
-    "availability": [
+    "gigs": [
         "Sprint"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "", 
         "talkTime": "4 hours", 
         "type": "Lithium Ion (Li-Ion) (1130 mAH)"

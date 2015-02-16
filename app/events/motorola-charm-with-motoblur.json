@@ -4,11 +4,11 @@
         "os": "Android 2.1", 
         "ui": "MOTOBLUR"
     }, 
-    "availability": [
+    "gigs": [
         "T-Mobile,", 
         "Telus"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "267 hours", 
         "talkTime": "5 hours", 
         "type": "Lithium Ion (Li-Ion) (1170 mAH)"
