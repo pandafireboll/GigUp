@@ -1,0 +1,13 @@
+{
+    "Name": "Yoshi's Bar Mitzvah", 
+    "Location": {
+        "City": "Los Angeles",
+        "State": "California"
+    }, 
+    "Date": "05-19-2015", 
+    "Time": "10:00", 
+    "Activities": [
+        "Singer", "DJ", "Magician", "Strippers", "Hookers"
+    ], 
+    "Type": "Jewish Ceremony"
+}
