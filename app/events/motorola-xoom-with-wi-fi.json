@@ -4,13 +4,12 @@
         "os": "Android 3.0", 
         "ui": "Honeycomb"
     }, 
-    "availability": [
+    "gigs": [
         ""
     ], 
-    "battery": {
-        "standbyTime": "336 hours", 
-        "talkTime": "24 hours", 
-        "type": "Other ( mAH)"
+    "date": {
+
+        "type": "feb 3"
     }, 
     "camera": {
         "features": [

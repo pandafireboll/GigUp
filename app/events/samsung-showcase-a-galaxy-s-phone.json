@@ -4,10 +4,10 @@
         "os": "Android 2.1", 
         "ui": "TouchWiz"
     }, 
-    "availability": [
+    "gigs": [
         "Cellular South"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "800 hours", 
         "talkTime": "7 hours", 
         "type": "Lithium Ion (Li-Ion) (1500 mAH)"

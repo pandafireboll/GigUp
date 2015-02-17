@@ -4,13 +4,13 @@
         "os": "Android 2.2", 
         "ui": "TouchWiz"
     }, 
-    "availability": [
+    "gigs": [
         "AT&T,", 
         "Sprint,", 
         "T-Mobile,", 
         "Verizon"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "780 hours", 
         "talkTime": "", 
         "type": "Lithium Ion (Li-Ion) (4000 mAH)"

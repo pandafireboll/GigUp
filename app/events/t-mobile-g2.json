@@ -4,10 +4,10 @@
         "os": "Android 2.2", 
         "ui": "Android"
     }, 
-    "availability": [
+    "gigs": [
         "T-Mobile"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "420 hours", 
         "talkTime": "7 hours", 
         "type": "Lithium Ion (Li-Ion) (1300 mAH)"

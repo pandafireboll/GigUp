@@ -4,12 +4,12 @@
         "os": "Android 2.1", 
         "ui": "MOTOBLUR"
     }, 
-    "availability": [
+    "gigs": [
         "SFR,", 
         "T-Mobile,", 
         "Vodafone"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "400 hours", 
         "talkTime": "6 hours", 
         "type": "Lithium Ion (Li-Ion) (1540 mAH)"

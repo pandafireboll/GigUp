@@ -4,10 +4,10 @@
         "os": "Android 2.1", 
         "ui": "MOTOBLUR\u2122"
     }, 
-    "availability": [
+    "gigs": [
         "AT&T"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "216 hours", 
         "talkTime": "6 hours", 
         "type": "Lithium Ion (Li-Ion) (1540 mAH)"

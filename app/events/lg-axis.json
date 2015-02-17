@@ -4,10 +4,10 @@
         "os": "Android 2.1", 
         "ui": "LG Home"
     }, 
-    "availability": [
+    "gigs": [
         "Cellular South"
     ], 
-    "battery": {
+    "date": {
         "standbyTime": "500 hours", 
         "talkTime": "8 hours", 
         "type": "Lithium Ion (Li-Ion) (1500 mAH)"

@@ -2,27 +2,27 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('phonecatApp', [
+var gigupApp = angular.module('gigupApp', [
   'ngRoute',
-  'phonecatAnimations',
-
-  'phonecatControllers',
-  'phonecatFilters',
-  'phonecatServices'
+  'gigupAnimations',
+    'firebase',
+  'gigupControllers',
+  'gigupFilters',
+  'gigupServices'
 ]);
 
-phonecatApp.config(['$routeProvider',
+gigupApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/phones', {
-        templateUrl: 'partials/phone-list.html',
-        controller: 'PhoneListCtrl'
+      when('/events', {
+        templateUrl: 'partials/event-list.html',
+        controller: 'EventListCtrl'
       }).
-      when('/phones/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
-        controller: 'PhoneDetailCtrl'
+      when('/events/:eventId', {
+        templateUrl: 'partials/event-detail.html',
+        controller: 'EventDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/phones'
+        redirectTo: '/events'
       });
   }]);
